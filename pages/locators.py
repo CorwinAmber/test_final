@@ -8,3 +8,7 @@ class MainPageLocators:
 class LoginPageLocators:
     LOGIN_LINK = (By.ID, "login_form")
     REGISTER_LINK = (By.ID, "register_form")
+
+
+class ProductPageLocators:
+    PRODUCT_LINK = (By.CSS_SELECTOR, "button.btn:nth-child(3)")
